@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uocgpacalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UOCGPACalculator">
+        <activity
+            android:name=".CheckBoxSubjectsSelection"
+            android:exported="false" />
+        <activity
+            android:name=".CGPAPerSubject"
+            android:exported="false" />
+        <activity
+            android:name=".CGPAPerSemester"
+            android:exported="false" />
+        <activity
+            android:name=".CGPAPerSemesterResult"
+            android:exported="false" />
+        <activity
+            android:name=".CGPAPerSubjectResult"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

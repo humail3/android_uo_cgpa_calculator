@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CGPAPerSemester">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/blueLightUO"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/arbutus"
+            android:gravity="center"
+            android:text="Enter Subject Marks with their Credit Hours"
+            android:textColor="@color/blueUO"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TVSubj1Marks"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/berkshire_swash"
+                android:gravity="left"
+                android:text="Subject 1:"
+                android:textColor="@color/blueUO"
+                android:textSize="23sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.5"
+    android:orientation="horizontal">
+    <EditText
+        android:id="@+id/ETSubj1Marks"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:hint="Marks"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/blueLightUO"
+        android:textSize="23sp" />
+    <EditText
+        android:id="@+id/ETSubj1CH"
+        android:layout_width="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:hint="Credit Hours"
+        android:inputType="numberDecimal"
+        android:textColor="@color/blueLightUO"
+        android:textSize="23sp" />
+</LinearLayout>
+
+            <TextView
+                android:id="@+id/TVSubj2Marks"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/berkshire_swash"
+                android:gravity="left"
+                android:text="Subject 2:"
+                android:textColor="@color/blueUO"
+                android:textSize="23sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/ETSubj2Marks"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:hint="Marks"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blueLightUO"
+                    android:textSize="23sp" />
+                <EditText
+                    android:id="@+id/ETSubj2CH"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:hint="Credit Hours"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blueLightUO"
+                    android:textSize="23sp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/TVSubj3Marks"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/berkshire_swash"
+                android:gravity="left"
+                android:text="Subject 3:"
+                android:textColor="@color/blueUO"
+                android:textSize="23sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/ETSubj3Marks"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:hint="Marks"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blueLightUO"
+                    android:textSize="23sp" />
+                <EditText
+                    android:id="@+id/ETSubj3CH"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:hint="Credit Hours"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blueLightUO"
+                    android:textSize="23sp" />
+            </LinearLayout>            <TextView
+                android:id="@+id/TVSubj4Marks"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/berkshire_swash"
+                android:gravity="left"
+                android:text="Subject 4:"
+                android:textColor="@color/blueUO"
+                android:textSize="23sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/ETSubj4Marks"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:hint="Marks"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blueLightUO"
+                    android:textSize="23sp" />
+                <EditText
+                    android:id="@+id/ETSubj4CH"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:hint="Credit Hours"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blueLightUO"
+                    android:textSize="23sp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/TVSubj5Marks"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/berkshire_swash"
+                android:gravity="left"
+                android:text="Subject 5:"
+                android:textColor="@color/blueUO"
+                android:textSize="23sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/ETSubj5Marks"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:hint="Marks"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blueLightUO"
+                    android:textSize="23sp" />
+                <EditText
+                    android:id="@+id/ETSubj5CH"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:hint="Credit Hours"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/blueLightUO"
+                    android:textSize="23sp" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/BTNEnter"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"
+                android:layout_weight="1.7"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/blueUO"
+                android:fontFamily="@font/bevan"
+                android:gravity="center"
+                android:text="Enter"
+                android:textColor="@color/whiteUO"
+                android:textSize="26sp"
+                app:cornerRadius="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/alex_brush"
+            android:gravity="right"
+            android:text="Humail"
+            android:textColor="@color/blueUO"
+            android:textSize="23sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">UO CGPA Calculator</string>
+    <color name="whiteUO">#FFFFFF</color>
+    <color name="blueUO">#131066</color>
+    <color name="blueLightUO">#4867FF</color>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        android:text="Choose one of them..."
+        android:textColor="@color/blueUO"
+        android:textSize="26sp" />
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="9"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/cgpaPerSubject"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
+        android:layout_weight="2"
+        android:background="@color/whiteUO"
+        android:gravity="center"
+        android:padding="50dp"
+        android:text="GP Per Subject"
+        android:textColor="@color/blueUO"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/cgpaPerSemester"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
+        android:layout_weight="2"
+        android:background="@color/whiteUO"
+        android:gravity="center"
+        android:text="CGPA Per Semester"
+        android:textColor="@color/blueUO"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/alex_brush"
+            android:gravity="right"
+            android:text="Humail"
+            android:textSize="23sp"
+            android:textColor="@color/blueUO" />
+    </LinearLayout>
+
+</LinearLayout>
